@@ -1,0 +1,21 @@
+financial-time-series-forecasting/
+│
+├── data/
+│   ├── raw/              # raw data from Alpha Vantage
+│   ├── processed/        # cleaned & feature-engineered data
+│
+├── src/
+│   ├── config.py         # constants (symbols, intervals)
+│   ├── data_loader.py    # API calls
+│   ├── preprocessing.py  # cleaning, features
+│   ├── models.py         # ML / DL models
+│   ├── train.py          # training pipeline
+│   ├── predict.py        # live prediction
+│   └── evaluation.py     # metrics & plots
+│
+├── notebooks/            # experiments & EDA
+│   └── exploration.ipynb
+│
+├── .env                  # API key (not committed)
+├── requirements.txt
+└── README.md
